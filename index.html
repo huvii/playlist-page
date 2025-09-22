@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Dark Epic Instrumental Music</title>
-  <!-- Meta Pixel -->
-  <script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Epic Music</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <script>
     !function(f,b,e,v,n,t,s)
     {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
     n.callMethod.apply(n,arguments):n.queue.push(arguments)};
@@ -14,21 +16,28 @@
     t.src=v;s=b.getElementsByTagName(e)[0];
     s.parentNode.insertBefore(t,s)}(window, document,'script',
     'https://connect.facebook.net/en_US/fbevents.js');
-    fbq('init', 'YOUR_PIXEL_ID'); 
+    fbq('init', 'YOUR_PIXEL_ID'); // Replace YOUR_PIXEL_ID with your actual Pixel ID
     fbq('track', 'PageView');
-  </script>
-  <noscript>
-    <img height="1" width="1" style="display:none"
-      src="https://www.facebook.com/tr?id=YOUR_PIXEL_ID&ev=PageView&noscript=1"/>
-  </noscript>
-</head>
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=YOUR_PIXEL_ID&ev=PageView&noscript=1"
+    /></noscript>
+    </head>
 <body>
-  <main style="text-align:center; padding:50px;">
-    <h1>Dark Epic Instrumental Music</h1>
-    <p>Become the best version of yourself through this epic playlist.</p>
-    <a href="https://open.spotify.com/playlist/5EEQzyo7yn93AD8iWhwKZy" target="_blank" style="font-size:20px; color:white; background:#1DB954; padding:15px 30px; border-radius:8px; text-decoration:none;">
-      Listen on Spotify
-    </a>
-  </main>
+    <div class="background-container"></div>
+    <main class="content-container">
+        <div class="card">
+            <img src="/playlist cover.png" alt="Album cover for dark epic instrumental music" class="album-cover">
+            <h1 class="title">Epic Music That Gets You Going</h1>
+            <p class="subtitle">Produced by the industry leader in epic music.</p>
+            <button class="spotify-button">
+                <i class="fab fa-spotify spotify-icon"></i>
+                <span class="button-text">Open in Spotify</span>
+                <i class="fas fa-arrow-right arrow-icon"></i>
+            </button>
+        </div>
+        <p class="copyright">All rights reserved by Rok Nardin</p>
+    </main>
+    <script src="script.js"></script>
 </body>
 </html>
